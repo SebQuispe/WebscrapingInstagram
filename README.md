@@ -1,31 +1,33 @@
-# WebscrapingInstagram with Selenium
+# WebscrapingInstagram con Selenium
 <br>
-This Repository contains a collection of notebooks related to Instagram web scraping and automation.
+(TRADUCIDO AL ESPAÑOL)
+<br>
+Este repositorio contiene una colección de cuadernos relacionados con el web scraping y la automatización de Instagram.
 <br>
 <br>
 <img src="https://user-images.githubusercontent.com/32107652/209244834-8f60b608-1584-44f0-beb5-fa8b2310b085.jpeg" width=500>
 
-## CURRENT VERSION (THUMBNAIL EXTRACTION)
-Please refer to <b>WebscrapingInstagram_completeUpdated_DEC2022.ipynb</b> generated and tested on December 22th, 2022.
+## VERSIÓN ACTUAL (EXTRACCIÓN DE MINIATURAS)
+Consultar <b>WebscrapingInstagram_completeUpdated_DEC2022.ipynb</b> generado y probado el 22 de diciembre de 2022.
 <br>
-This file showcases the updated Selenium commands, which have changed from the moment of filming my <a href="https://youtu.be/iJGvYBH9mcY" target="_blank">YouTube tutorial</a> and now.
+Este archivo muestra los comandos de Selenium actualizados, que han cambiado desde el momento en que filmé mi <a href="https://youtu.be/iJGvYBH9mcY" target="_blank">tutorial de YouTube</a> y ahora.
 <br>
-FYI, in the new version of Selenium, commands of this syntax:
+Para su información, en la nueva versión de Selenium, los comandos con esta sintaxis:
 
 ```driver.find_elements_by_tag_name("input")```
 
-were replaced with commands of that syntax:
+fueron reemplazados con comandos de esa sintaxis:
 
 ```driver.find_elements(By.TAG_NAME, "input")```
 
 ## CURRENT VERSION (IMAGE EXTRACTION)
 
-Please refer to <b>ImageExtracting_Updated-DEC2022.ipynb</b> generated and tested on December 22th, 2022.
+Consultar <b>ImageExtracting_Updated-DEC2022.ipynb</b> generado y probado el 22 de diciembre de 2022.
 <br>
-This file includes new Selenium syntax, Fixes to scrolling issues and a more efficient keyword search.
+Este archivo incluye nueva sintaxis de Selenium, correcciones a problemas de desplazamiento y una búsqueda de palabras clave más eficiente.
 <br>
 
-## OLD VERSIONS
+## VERSIONES ANTIGUAS
 
 <b>PLEASE NOTE:</b> the notebooks below were not updated to the current Selenium syntax!!!
 
